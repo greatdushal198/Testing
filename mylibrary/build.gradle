@@ -40,7 +40,7 @@ publishing {
             groupId = 'com.github'
             artifactId = 'testing'
             version = "1.0.3"
-            from components.java
+//            from components.java
 
             pom {
                 description = 'A description of my library'

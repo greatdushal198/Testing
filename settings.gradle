@@ -6,15 +6,15 @@ pluginManagement {
         jcenter()
     }
 }
-//dependencyResolutionManagement {
-//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-//    repositories {
-//        google()
-//        mavenCentral()
-//        //  gradPluginPortal()
-//        jcenter()
-//    }
-//}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        //  gradPluginPortal()
+        jcenter()
+    }
+}
 rootProject.name = "MyApplication"
 //include ':app'
 include ':mylibrary'
